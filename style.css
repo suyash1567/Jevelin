@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #2b2b2b;
+    position: relative;
+}
+.circle-right img{
+    height: 1200px;
+    width: 1200px;
+    bottom:-600px;
+    right:-450px;
+    position: absolute;
+}
+
+
+.top-nav{
+    z-index:2;
+    padding-top: 50px;
+    display: flex;
+    width: 95%;
+    margin:auto;
+}
+.left{
+    flex:1
+}
+.middle {
+    flex:1
+ 
+    
+}
+.right{
+    display: flex;
+    flex:1;
+   justify-content: flex-end;
+}
+.middle ul{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 15px;
+}
+.middle ul li{
+    margin-left: 30px;
+}
+.right a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 800;
+    padding: 15px 45px ;
+    background-color: #7d1eff;
+    border-radius: 40px;
+    
+    
+}
+.right .cart img{
+    width: 25px;
+    height: 25px;
+    margin-right: 40px;
+    
+}
+.circle-left img{
+    position: absolute;
+    top:-250px;
+    left:-250px;
+    z-index:0;
+}
+.col-right{
+    position: relative;
+    float: right;
+    z-index:0;
+    right:100px;
+}
+.col-right img{
+    height:600px;
+    width:500px;
+}
+
+.col-left h1{
+    color: white;
+    font-family: 'poppins';
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 84px;
+}
+.col-left span{
+    color: #994fff ;
+}
+.col-left h3{
+    color: white;
+    font-family: 'poppins';
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.col-left h5{
+    color:#9e9aa5;
+    font-family: 'poppins';
+    font-weight: lighter;
+    max-width: 450px;
+    line-height: 26px;
+}
+
+.col-left{
+    padding-top:8%;
+    margin:auto 250px;
+    max-width: 600px;
+   
+}
+.middle ul li:hover{
+    transition: background ease-in 0.5s;
+    color:#9e9aa5;
+}
+
+.right a:hover{
+    transition: background ease-in 0.2s;
+    background-color: #9050eb;
+}
